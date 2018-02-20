@@ -1,11 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no initial-scale=1.0">
+	<meta name="author" content="Carlos Alfaro">
+	<meta name="keywords" content="Css Diseño Web Responsive">
+	<meta name="description" content="Css Diseño Web Responsive">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Blog de Música</title>
 </head>
 <body>
 	
+		<header class="container">
+			<div class="blog-header py-1">
+				<div class="row">
+					<div class="d-flex justify-content-center col-xs-12 col-sm-12 col-md-5 col-lg-3">
+						<img src="img/logo.svg" height="150" alt="Logo Musica">
+					</div>
+					<div class="d-flex justify-content-center col-xs-12 col-sm-12 col-md-7 col-lg-5 d-flex offset-lg-4">
+						<ul class="list-inline ml-md-auto ml-lg-auto float-lg-right redesSociales">
+							<li class="list-inline-item"><a class="p-2" href="#"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+							<li class="list-inline-item"><a class="p-2" href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+							<li class="list-inline-item"><a class="p-2" href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+							<li class="list-inline-item"><a class="p-2" href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="container menu-principal">
+			<nav class="nav navbar-nav" role="navigation" id="navbarNav">
+				<ul class="nav nav-pills nav-fill d-flex nav-pills flex-column flex-sm-row">
+					<li class="nav-item active"><a class="nav-link active p-3" href="#">Inicio</a></li>
+				    <li class="nav-item"><a class="nav-link p-3" href="#">Artistas</a></li>
+				    <li class="nav-item"><a class="nav-link p-3" href="#">Grupos</a></li>
+				    <li class="nav-item"><a class="nav-link p-3" href="#">Top 10</a></li>
+				    <li class="nav-item"><a class="nav-link p-3" href="#">Letras</a></li>
+				    <li class="nav-item"><a class="nav-link p-3" href="#">Acordes</a></li>
+			    </ul>	
+		    </nav>
+      	</div>
+
+		<!-- Articulos -->
+      <div class="container">
+      	<div class="row">
+      		<div class="col-md-8 col-lg-8 contenido p-3">
+      			<div class="row">
+      				<div class="col-lg-7">
+      					<h2 class="">Tributo a The Beatles</h2>
+      					<p class="card-text mb-auto">
+      						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vero sunt optio a dolores eligendi illo ex, nesciunt debitis, mollitia modi cum quae totam minima error. Voluptates, iure voluptatem suscipit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, distinctio accusamus iusto excepturi vero voluptatum, possimus doloremque dicta dolorum illum facere eligendi. Mollitia ipsum itaque nobis numquam aspernatur minus error.
+      					</p>
+      					
+      				</div>
+      				<div class="col-lg-5">
+      					<img class="rounded mx-auto d-block" src="img/theBeatles.jpg" alt="The Beatles" title="The Beatles" style="width: 250px; height: 250px">
+      				</div>
+					
+      				<div class="col-lg-10 p-3">
+      					<div class="row">
+      						<div class="col-2">
+      							<i class="fas fa-user fa-3x"></i>
+      						</div>
+      						<div class="col-10">
+      							<textarea class="form-control" rows="1" placeholder="Comentario"></textarea>
+      						</div>
+      					</div>
+      				</div>
+			
+					<div class="col-lg-5 p-3">
+      					<img class="rounded mx-auto d-block" src="img/planetas.jpg" alt="Planetas" title="Planetas" style="width: 250px; height: 250px">
+      				</div>
+					
+      				<div class="col-lg-7 p-3">
+      					<h2 class="">Navegación por los planetas</h2>
+      					<p class="card-text mb-auto">
+      						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vero sunt optio a dolores eligendi illo ex, nesciunt debitis, mollitia modi cum quae totam minima error. Voluptates, iure voluptatem suscipit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, distinctio accusamus iusto excepturi vero voluptatum, possimus doloremque dicta dolorum illum facere eligendi. Mollitia ipsum itaque nobis numquam aspernatur minus error.
+      					</p>
+      					
+      				</div>
+      				<div class="col-lg-10 p-3">
+      					<div class="row">
+      						<div class="col-2">
+      							<i class="fas fa-user fa-3x"></i>
+      						</div>
+      						<div class="col-10">
+      							<textarea class="form-control" rows="1" placeholder="Comentario"></textarea>
+      						</div>
+      					</div>
+      				</div>
+
+      			</div>
+      		</div>
+			
+			<!-- Buscador -->
+      		<div class="col-md-4 col-lg-4 buscador p-3 d-none d-sm-block">
+      			<div class="row">
+      				<div class="col-md-10 order-md-2 mb-4">
+      					<div class="input-group mb-3">
+  							<div class="input-group-prepend">
+    							<span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+  							</div>
+  								<input type="search" class="form-control" placeholder="Buscar" aria-label="buscar" aria-describedby="basic-addon1">
+						</div>
+      					<div>
+	      					<ul class="list-group mb-3 text-center">
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Historia de la música</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Lo mas eschudado del año</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Nuevos lanzamientos</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Conciertos del 2018</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Nuevas portadas</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Tu artista favorito</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Que opinas de</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Datos curiosos</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Nuevas portadas</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Tu artista favorito</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Que opinas de</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Datos curiosos</a></li>
+	      						<li class="list-group-item d-flex justify-content-between lh-condensed"><a class="text-muted" href="#">Que opinas de</a></li>
+	      					</ul>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+   
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+ 

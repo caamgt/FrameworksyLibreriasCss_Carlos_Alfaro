@@ -1,0 +1,54 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	background: #022B3A;
+}
+.redesSociales {
+	padding-top: 20px;
+}
+
+header {
+	background: #ffffff;
+}
+
+.redesSociales li a {
+	color: #022B3A;
+} 
+
+.redesSociales li a:hover {
+	color: #DD5D4B;
+} 
+
+.menu-principal {
+	background-color: #DD5D4B;
+}
+
+#navbarNav ul li a {
+	color: #fff;
+}
+
+.menu-principal nav a:hover {
+	background-color: #E9978C;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.nav-pills .nav-link.active {
+	background-color: #E6897C;
+}
+
+.contenido {
+	background-color: #F6F6F6;
+
+}
+
+.buscador {
+	background-color: #fff;
+}
+
+@media (min-width: 768px) {
+	.redesSociales {
+		padding-top: 100px;
+	}
+}
