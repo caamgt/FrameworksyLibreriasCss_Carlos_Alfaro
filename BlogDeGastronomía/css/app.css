@@ -1,0 +1,30 @@
+body {
+	background: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.prueba {
+	background: rgba(153, 50, 0, 0.9);
+}
+
+
+.bordeDerecho {
+	border-right: 1px solid #cacaca;
+}
+
+
+
+.buscarBtn {
+	opacity: 0.5;
+}
+
+.buscarBtn:hover {
+	opacity: 1;
+}
+
+img[src|='img/user'] {
+	width: 50px;
+}
