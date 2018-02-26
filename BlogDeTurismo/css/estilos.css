@@ -1,0 +1,34 @@
+body {
+	background: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.fondo {
+	background: #ffffff;
+}
+
+.encabezado {
+	position: fixed;
+	background: #ffffff;
+}
+
+.logo {
+	margin-left: 50px;
+}
+
+img[src|='img/imagen'] {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.imagenCentro {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.prueba {
+	padding-top: 30px;
+}

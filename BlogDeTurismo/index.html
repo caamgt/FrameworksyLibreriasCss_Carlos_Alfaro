@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!--Importar la hojas de estilos propios-->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Mi primer página con Materialize CSS</title>
+</head>
+<body>
+	<div class="container contenedor-principal">
+		<div class="row">
+			<div class="col s12 l12">
+				<nav>
+					<div class="nav-wrapper teal lighten-1">
+				      <a href="#" class="brand-logo logo"><img class="responsive-img" src="img/logo.png" width="60px"></a>
+				      <ul id="nav-mobile" class="right hide-on-med-and-down">
+				        <li class="active"><a href="#">Inicio</a></li>
+				        <li><a href="#">Estuve en</a></li>
+				        <li><a href="#">Mejores viajes</a></li>
+				        <li><a href="#">Recomendaciones</a></li>
+				      </ul>
+				    </div>
+				</nav>
+			</div>
+			<div class="fondo">
+				<h5>Slogan: Creando mi propio camino</h5>
+			</div>
+		</div>
+
+		<div class="row fondo">
+
+			<!-- Redes sociales -->
+			<div class="col l1 hide-on-med-and-down">
+				<ul>
+					<li><a href="#"><i class="material-icons"></i><img src="img/icono-facebook.png" class="responsive-img" width="50"></a></li>
+					<li><a href="#"><i class="material-icons"></i><img src="img/icono-twitter.png" class="responsive-img" width="50"></a></li>
+					<li><a href="#"><i class="material-icons"></i><img src="img/icono-instagram.png" class="responsive-img" width="50"></a></li>
+					<li><a href="#"><i class="material-icons"></i><img src="img/icono-pinterest.png" class="responsive-img" width="50"></a></li>
+					<li><a href="#"><i class="material-icons"></i><img src="img/icono-youtube.png" class="responsive-img" width="50"></a></li>
+				</ul>
+			</div>
+
+			<!-- Galeria -->
+			<div class="col l11">
+				<div class="row center">
+					<div class="col l3">
+						<div class="row">
+							<div class="col l12 z-depth-1">
+								<img src="img/imagen-francia" class="responsive-img" alt="Francia" title="Francia">
+							</div>
+							<div class="col l12 z-depth-1">
+								<img src="img/imagen-italia" class="responsive-img" alt="Italia" title="Italia">
+							</div>
+						</div>
+					</div>
+					<div class="col l6">
+						<div class="row">
+							<div class="col l12 z-depth-1">
+								<img class="imagenCentro responsive-img" src="img/moscu" alt="Moscu" title="Moscu">
+							</div>
+						</div>
+					</div>
+					<div class="col l3">
+						<div class="row">
+							<div class="col l12 z-depth-1">
+								<img src="img/imagen-alemania" class="responsive-img" alt="Alemania" title="Alemania">
+							</div>
+							<div class="col l12 z-depth-1">
+								<img src="img/imagen-londres" class="responsive-img" alt="Londres" title="Londres">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Entradas -->
+			<div class="row">
+				<!-- Primeera Publicación  -->
+				<div class="col s12 l8">
+					<div class="row">
+						<div class="col s12 l11 offset-l1">
+							<h3>El acuario</h3>
+						</div>
+						<div class="col l11 offset-l1">
+							<div class="chip">
+								24 de febrero de 2018 &nbsp;<i class="material-icons">date_range</i>
+							</div>
+							<div class="chip">
+								Milan, Italia &nbsp;<i class="material-icons">pin_drop</i>
+							</div>
+						</div>
+						<div class="col s12 l11 offset-l1">
+							<div class="row">
+								<div class="col s12 m12 l6">
+									<img class="left responsive-img" src="img/acuario.jpg" width="400">
+								</div>
+								<div class="col s12">
+									<p class="flow-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo velit eos impedit asperiores tenetur ut repudiandae quaerat sitducimus, est officia eius delectus, corrupti quae animi laborum quibusdam ipsa quasi. Lorem ipsum dolor sit amet, consecteturadipisicing elit. Non voluptate provident eum, itaque nihil. Minus eius nostrum veritatis eos eum fugiat maiores corporisnulla, vitae ad hic consectetur excepturi vero.
+									</p>
+									<p class="flow-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aliquid quas officia sunt explicabo veritatis similiquedistinctio cumque. Ipsum ipsa quam, vel repellendus autem fugiat. Est quam velit repellat. Repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minima adipisci consequatur ex, tenetur eum dicta, voluptates odio qui voluptatum obcaecati maxime amet possimus, facere rerum eligendi perspiciatis soluta recusandae.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col l12">
+							<form>
+								<div class="row">
+									<div class="input-field col s12 m9 offset-m1 m12 l11 offset-l1">
+										<i class="medium material-icons">person</i>
+										<textarea id="comentario" class="materialize-textarea" placeholder="Ingrese un comentario"></textarea>
+										<a class="right waves-effect waves-light btn">Publicar<i class="material-icons medium left">check</i></a>
+									</div>
+								</div>
+							</form>
+						</div>
+						
+						<!-- Segunda publicación -->
+						<div class="col l11 offset-l1">
+							<h3>El zoologico de Berlin</h3>
+						</div>
+						<div class="col l11 offset-l1">
+							<div class="chip">
+								20 de febrero de 2018 &nbsp;<i class="material-icons">date_range</i>
+							</div>
+							<div class="chip">
+								Berlin, Alemania &nbsp;<i class="material-icons">pin_drop</i>
+							</div>
+						</div>
+						<div class="col l11 offset-l1">
+							<div class="row">
+								<div class="col s12 l6">
+									<img class="left responsive-img" src="img/zoo.jpg" width="400">
+								</div>
+								<div class="col s12">
+									<p class="flow-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo velit eos impedit asperiores tenetur ut repudiandae quaerat sitducimus, est officia eius delectus, corrupti quae animi laborum quibusdam ipsa quasi. Lorem ipsum dolor sit amet, consecteturadipisicing elit. Non voluptate provident eum, itaque nihil. Minus eius nostrum veritatis eos eum fugiat maiores corporisnulla, vitae ad hic consectetur excepturi vero.
+									</p>
+									<p class="flow-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aliquid quas officia sunt explicabo veritatis similiquedistinctio cumque. Ipsum ipsa quam, vel repellendus autem fugiat. Est quam velit repellat. Repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minima adipisci consequatur ex, tenetur eum dicta, voluptates odio qui voluptatum obcaecati maxime amet possimus, facere rerum eligendi perspiciatis soluta recusandae.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col l12">
+							<form>
+								<div class="row">
+									<div class="input-field col s12 m11 offset-m1 l11 offset-l1">
+										<i class="medium material-icons">person</i>
+										<textarea id="comentario" class="materialize-textarea" placeholder="Ingrese un comentario"></textarea>
+										<a class="right waves-effect waves-light btn">Publicar<i class="material-icons medium left">check</i></a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<!-- Perfil del Autor -->
+				<div class="col s12 l3 offset-l1 center z-depth-1">
+					<img src="img/author.png" class="center responsive-img prueba" alt="Andrés Moreno" title="Andrés Moreno" width="150">
+					<h4>Perfil del Autor</h4>
+					<div class="divider"></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus vitae delectus, voluptatibus. Hic, quisquam natus dolore id, saepe vero rerum, est, accusamus aperiam tempore debitis qui dolores et praesentium accusantium.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
